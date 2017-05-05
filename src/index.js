@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import OperationJob from './operation-job/operation-job-app';
 
 ReactDOM.render(
-  <App />,
+  <OperationJob />,
   document.getElementById('root')
 );
