@@ -9,7 +9,14 @@
     "uikit": "^3.0.0-beta.22"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0",
     "gh-pages": "^0.12.0",
+    "mocha": "^3.3.0",
     "react-scripts": "0.9.5"
   },
   "scripts": {
@@ -19,5 +26,11 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "node": true
+    }
   }
 }

@@ -9,7 +9,7 @@ To view this code running click [here](https://slimjim181.github.io/operation-jo
 As Joe
 I want to create my CV as a webpage
 So my CV stands out, especially for a software developer position
-And I can show some actual code to potential employeers
+And I can show some actual code to potential employers
 And I can show other skills I have
 And I can have more fun than making a typical CV
 ```
