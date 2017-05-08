@@ -1,32 +1,31 @@
 html {
-  height: 100%;
-}
-body {
-  font-family: sans-serif;
-  height: 100%;
-}
-#root {
-  height: 100%;
+  background-color: #1e87f0;
 }
 
-
-.operation-job {
-  height: 100%;
-  background: url('batman.jpg') no-repeat fixed;
-  background-size: cover;
+.oj-image-panel {
+  height: 100vh;
+  width: auto;
 }
-
-.oj-name {
-  color: #1e87f0;
-  font-family: 'Baloo Tamma';
-  font-size: 100px;
-}
-
 
 .oj-header {
   padding: 20px;
   text-align: center;
   position: relative;
-  top: 70%;
+  top: 60%;
   transform: translateY(-30%);
+}
+
+.oj-footer {
+  padding-top: 40px;
+}
+
+.oj-name {
+  color: #fff;
+  font-family: 'Baloo Tamma';
+  font-size: 120px;
+  margin-bottom: 0px;
+}
+
+.oj-button {
+  height: 70px;
 }

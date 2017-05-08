@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 import _ from 'lodash';
 import '../../assets/operation-job.css';
 import viewStates from './types';
+
+import Software from './components/software';
+import Leader from './components/leader';
 import Computer from './components/computer';
+import Video from './components/video';
+import Speaker from './components/speaker';
+import Contact from './components/contact';
+
 import Button from './components/button';
+import photo from '../../assets/joe.jpg';
+
 
 class OperationJob extends Component {
-
   constructor() {
     super();
     this.state = {
@@ -34,20 +42,36 @@ class OperationJob extends Component {
       <Button key={index} name={name} handleClick={this.handleClick} />
     ));
 
-    if (this.state.viewState === viewStates.COMPUTER) {
-      return (<Computer />);
-    }
-    return (
-      <div className="operation-job">
-        <div className="oj-header">
-          <h1 className="oj-name">Joseph Sutton</h1>
-          <div>
-            { homeScreenButtons }
+    // TODO consider a navigation library.
+    switch (this.state.viewState) {
+      case viewStates.SOFTWARE:
+        return (<Software />);
+      case viewStates.LEADER:
+        return (<Leader />);
+      case viewStates.COMPUTER:
+        return (<Computer />);
+      case viewStates.VIDEO:
+        return (<Video />);
+      case viewStates.SPEAKER:
+        return (<Speaker />);
+      case viewStates.CONTACT:
+        return (<Contact />);
+      default:
+        return (
+          <div className="operation-job uk-grid uk-height-viewport">
+            <img className="oj-image-panel" src={photo} alt="Joseph Sutton" />
+            <div className="oj-content-panel uk-width-expand">
+              <div className="oj-header">
+                <h1 className="oj-name">Joseph Sutton</h1>
+                { homeScreenButtons }
+                <div className="oj-footer" >
+                  <Button key={6} name={viewStates.CONTACT} handleClick={this.handleClick} />
+                </div>
+              </div>
+            </div>
           </div>
-          <Button key={5} name={viewStates.CONTACT} handleClick={this.handleClick} />
-        </div>
-      </div>
-    );
+        );
+    }
   }
 }
 
