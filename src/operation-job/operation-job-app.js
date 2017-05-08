@@ -60,11 +60,13 @@ class OperationJob extends Component {
         return (
           <div className="operation-job uk-grid uk-height-viewport">
             <img className="oj-image-panel" src={photo} alt="Joseph Sutton" />
-            <div className="oj-content-panel uk-width-expand">
+            <div className="oj-content-panel">
               <div className="oj-header">
-                <h1 className="oj-name">Joseph Sutton</h1>
-                { homeScreenButtons }
-                <div className="oj-footer" >
+                <h1 className="oj-name uk-margin-large">Joseph Sutton</h1>
+                <div className="uk-margin-large">
+                  { homeScreenButtons }
+                </div>
+                <div className="oj-contact-section uk-margin-large-top" >
                   <Button key={6} name={viewStates.CONTACT} handleClick={this.handleClick} />
                 </div>
               </div>

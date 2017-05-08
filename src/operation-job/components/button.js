@@ -4,7 +4,7 @@ import '../../../assets/operation-job.css';
 
 const Button = ({ name, handleClick, buttonType }) => (
   <button
-    className={`uk-button ${buttonType} uk-button-large uk-margin-top uk-margin-right uk-text-large oj-button`}
+    className={`uk-button ${buttonType} uk-button-large uk-text-uppercase uk-text-large oj-button`}
     onClick={event => handleClick(event)}
   >{name}</button>
 );
