@@ -3,20 +3,43 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.oj-image-panel {
-  height: 100vh;
-  width: auto;
+@media (max-width: 1449px) {
+  .operation-job {
+    margin-left: 0px;
+  }
+
+  .oj-image-panel {
+    display: none;
+  }
+
+  .oj-content-panel {
+    padding-left: 0px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .oj-header {
+    text-align: center;
+    position: relative;
+    top: 20%;
+  }
 }
 
-.oj-content-panel {
-  flex: 1;
-}
+@media (min-width: 1450px) {
+  .oj-image-panel {
+    height: 100vh;
+    width: auto;
+  }
 
-.oj-header {
-  text-align: center;
-  position: relative;
-  top: 60%;
-  transform: translateY(-30%);
+  .oj-content-panel {
+    flex: 1;
+  }
+
+  .oj-header {
+    text-align: center;
+    position: relative;
+    top: 45%;
+  }
 }
 
 .oj-name {
