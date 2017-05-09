@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../../../assets/operation-job.css';
+import '../../assets/css/button.css';
 
 const Button = ({ name, handleClick, buttonType }) => (
   <button

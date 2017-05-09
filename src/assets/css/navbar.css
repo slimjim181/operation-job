@@ -1,0 +1,33 @@
+.oj-navbar {
+  background-color: #1e87f0;
+  color: white;
+}
+
+.oj-height {
+  /*uikit forces line-height to be 40px*/
+  line-height: 70px !important;
+  height: 70px !important;
+}
+
+.uk-navbar-nav>li>a {
+  color: white;
+  font-family: 'Baloo Tamma';
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/*the reason I need scss grr*/
+.uk-navbar-nav>li>a:focus {
+  color: white;
+  background-color: #0f7ae5;
+}
+
+.uk-navbar-nav>li>a:hover {
+  color: white;
+  background-color: #0f7ae5;
+}
+
+.oj-nav-image {
+  /*because it looks bad if it doesn't line up!*/
+  transform: translateX(-15px);
+}

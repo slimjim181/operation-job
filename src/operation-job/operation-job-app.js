@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import '../../assets/operation-job.css';
+import '../assets/css/operation-job.css';
 import viewStates from './types';
 
-import Software from './components/software';
-import Leader from './components/leader';
-import Computer from './components/computer';
-import Video from './components/video';
-import Speaker from './components/speaker';
-import Contact from './components/contact';
+import Software from './content-pages/software';
+import Leader from './content-pages/leader';
+import Computer from './content-pages/computer';
+import Video from './content-pages/video';
+import Speaker from './content-pages/speaker';
+import Contact from './content-pages/contact';
 
 import Button from './components/button';
-import photo from '../../assets/joe.jpg';
+import photo from '../assets/images/joe.jpg';
+
+const JOSEPH = 'Joseph Sutton';
 
 
 class OperationJob extends Component {
@@ -25,6 +27,7 @@ class OperationJob extends Component {
   }
 
   handleClick(event) {
+    event.preventDefault();
     this.setState({
       viewState: event.target.textContent,
     });
@@ -45,24 +48,24 @@ class OperationJob extends Component {
     // TODO consider a navigation library.
     switch (this.state.viewState) {
       case viewStates.SOFTWARE:
-        return (<Software />);
+        return (<Software name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.LEADER:
-        return (<Leader />);
+        return (<Leader name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.COMPUTER:
-        return (<Computer />);
+        return (<Computer name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.VIDEO:
-        return (<Video />);
+        return (<Video name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.SPEAKER:
-        return (<Speaker />);
+        return (<Speaker name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.CONTACT:
-        return (<Contact />);
+        return (<Contact name={this.state.viewState} handleClick={this.handleClick} />);
       default:
         return (
-          <div className="operation-job uk-grid uk-height-viewport">
-            <img className="oj-image-panel" src={photo} alt="Joseph Sutton" />
+          <div className="operation-job-home uk-grid uk-height-viewport">
+            <img className="oj-image-panel" src={photo} alt={JOSEPH} />
             <div className="oj-content-panel">
               <div className="oj-header">
-                <h1 className="oj-name uk-margin-large">Joseph Sutton</h1>
+                <h1 className="oj-name uk-margin-large">{JOSEPH}</h1>
                 <div className="uk-margin-large">
                   { homeScreenButtons }
                 </div>

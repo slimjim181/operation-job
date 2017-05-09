@@ -1,0 +1,17 @@
+.operation-job-page {
+  background-color: #151515;
+}
+
+.oj-container {
+  background-color: #fff;
+  /*remove?*/
+  height: 1000px;
+}
+
+.oj-title {
+  color: #1e87f0;
+  line-height: 1.2;
+  font-family: 'Baloo Tamma';
+  font-size: 120px;
+  margin-bottom: 0px;
+}
