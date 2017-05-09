@@ -1,31 +1,67 @@
 html {
   background-color: #1e87f0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.oj-image-panel {
-  height: 100vh;
-  width: auto;
+@media (max-width: 1449px) {
+  .operation-job {
+    margin-left: 0px;
+  }
+
+  .oj-image-panel {
+    display: none;
+  }
+
+  .oj-content-panel {
+    padding-left: 0px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .oj-header {
+    text-align: center;
+    position: relative;
+    top: 20%;
+  }
 }
 
-.oj-header {
-  padding: 20px;
-  text-align: center;
-  position: relative;
-  top: 60%;
-  transform: translateY(-30%);
-}
+@media (min-width: 1450px) {
+  .oj-image-panel {
+    height: 100vh;
+    width: auto;
+  }
 
-.oj-footer {
-  padding-top: 40px;
+  .oj-content-panel {
+    flex: 1;
+  }
+
+  .oj-header {
+    text-align: center;
+    position: relative;
+    top: 45%;
+  }
 }
 
 .oj-name {
   color: #fff;
+  line-height: 1.2;
   font-family: 'Baloo Tamma';
   font-size: 120px;
   margin-bottom: 0px;
 }
 
 .oj-button {
+  padding-left: 30px;
+  padding-right: 30px;
   height: 70px;
+  font-size: 24px;
+  background-color: #1e87f0;
+}
+
+.oj-button:hover {
+  background-color: #0f7ae5;
+}
+
+.oj-button:focus {
+  background-color: #0f7ae5;
 }
