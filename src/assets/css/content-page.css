@@ -4,8 +4,7 @@
 
 .oj-container {
   background-color: #fff;
-  /*remove?*/
-  height: 1000px;
+  height: auto;
 }
 
 .oj-title {
@@ -15,4 +14,14 @@
   font-size: 120px;
   margin-bottom: 0px;
   transform: translateY(28px);
+}
+
+@media (max-width: 480px) {
+  .oj-title {
+    font-size: 70px;
+  }
+}
+
+.oj-details-h2 {
+  margin-top: 0px;
 }

@@ -69,7 +69,7 @@ class OperationJob extends Component {
                 <div className="uk-margin-large">
                   { homeScreenButtons }
                 </div>
-                <div className="oj-contact-section uk-margin-large-top" >
+                <div className="oj-contact-section uk-margin-large-top uk-margin-large-bottom" >
                   <Button key={6} name={viewStates.CONTACT} handleClick={this.handleClick} />
                 </div>
               </div>
