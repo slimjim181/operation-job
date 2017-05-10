@@ -22,5 +22,9 @@ And I can have more fun than making a typical CV
 
 Ultimately I hope I find an **epic** company to work for that would benefit from all my skills.
 
+## Licence
+[No Licence](https://choosealicense.com/no-license/)
+
 #### Note this is currently a work in progress but I am open to any feedback.
+
 [josephsutton@hotmail.co.nz](josephsutton@hotmail.co.nz)
