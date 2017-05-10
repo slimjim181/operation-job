@@ -1,7 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
-import icon from '../../assets/images/joe-thumbnail.jpg';
 import '../../assets/css/navbar.css';
 import viewStates from '.././types';
 
@@ -14,14 +13,23 @@ const NavBar = ({ handleClick }) => {
     <div>
       <nav className="uk-navbar oj-navbar">
         <div className="uk-container uk-container-center">
-          <div className="uk-vertical-align uk-navbar-toggle oj-height">
-            <img src={icon} className="uk-vertical-align-middle oj-nav-image" alt="Joseph Sutton" />
-          </div>
-          <ul className="uk-navbar-nav">
+          <a
+            className="uk-navbar-toggle uk-hidden-large oj-navbar-toggle oj-height"
+            href="#offcanvas"
+            data-uk-offcanvas
+          />
+          <ul className="uk-navbar-nav uk-visible-large">
             {navBarItems}
           </ul>
         </div>
       </nav>
+      <div id="offcanvas" className="uk-offcanvas">
+        <div className="uk-offcanvas-bar" mode="push">
+          <ul className="uk-nav uk-nav-offcanvas">
+            {navBarItems}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

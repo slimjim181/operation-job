@@ -5,14 +5,27 @@
 
 .oj-height {
   /*uikit forces line-height to be 40px*/
-  line-height: 70px !important;
-  height: 70px !important;
+  line-height: 50px !important;
+  height: 50px !important;
+}
+
+.oj-navbar-toggle {
+  color: white;
+  font-size: 20px;
+}
+
+.oj-navbar-toggle:hover {
+  color: white;
+}
+
+.oj-navbar-toggle:focus {
+  color: white;
 }
 
 .uk-navbar-nav>li>a {
   color: white;
   font-family: 'Baloo Tamma';
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -25,9 +38,5 @@
 .uk-navbar-nav>li>a:hover {
   color: white;
   background-color: #0f7ae5;
-}
-
-.oj-nav-image {
-  /*because it looks bad if it doesn't line up!*/
-  transform: translateX(-15px);
+  cursor: pointer;
 }

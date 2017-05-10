@@ -7,13 +7,13 @@ const Software = ({ name, handleClick }) => (
   <div className="operation-job-page uk-height-viewport">
     <NavBar handleClick={handleClick} />
     <div className="uk-container uk-container-center oj-container oj-container">
-      <h1 className="oj-title">{name}</h1>
+      <h1 className="oj-title uk-margin-top">{name}</h1>
     </div>
   </div>
 );
 
 Software.propTypes = {
-  name: PropTypes.func.toString.isRequired,
+  name: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
 

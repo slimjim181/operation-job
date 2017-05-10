@@ -10,8 +10,9 @@
 
 .oj-title {
   color: #1e87f0;
-  line-height: 1.2;
+  line-height: 1.0;
   font-family: 'Baloo Tamma';
   font-size: 120px;
   margin-bottom: 0px;
+  transform: translateY(28px);
 }
