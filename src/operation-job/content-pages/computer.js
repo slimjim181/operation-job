@@ -10,7 +10,13 @@ const Computer = ({ name, handleClick }) => (
       <div className="uk-vertical-align uk-text-center">
         <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
       </div>
-      <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin />
+      <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
+        <div className="uk-width-1-1">
+          <p className="uk-text-large">
+            My number 1 hobby to do in my spare time is to build computers
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 );

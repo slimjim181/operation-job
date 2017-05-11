@@ -10,7 +10,13 @@ const Speaker = ({ name, handleClick }) => (
       <div className="uk-vertical-align uk-text-center">
         <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
       </div>
-      <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin />
+      <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
+        <div className="uk-width-1-1">
+          <h2>x2 MC of Orion Health R&D All Hands</h2>
+          <p className="uk-text-large">
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 );

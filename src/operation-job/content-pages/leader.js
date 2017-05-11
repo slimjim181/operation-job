@@ -10,7 +10,17 @@ const Leader = ({ name, handleClick }) => (
       <div className="uk-vertical-align uk-text-center">
         <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
       </div>
-      <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin />
+      <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
+        <div className="uk-width-1-1">
+          <h2>Orion Health Junior Development Board</h2>
+          <p className="uk-text-large">
+            Hand-picked by the CEO Ian McCrae to be exposed to greater business initiatives.
+          </p>
+          <h2>Reference</h2>
+          <h2>Volunteer involvement</h2>
+          <h2>Clifton Strengths Finder</h2>
+        </div>
+      </div>
     </div>
   </div>
 );

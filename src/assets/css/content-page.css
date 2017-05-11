@@ -25,3 +25,12 @@
 .oj-details-h2 {
   margin-top: 0px;
 }
+
+/*TODO fix same as ^*/
+.oj-no-margin {
+  margin: 0px;
+}
+
+.oj-full-flex {
+  flex: 1;
+}
