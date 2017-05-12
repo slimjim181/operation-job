@@ -34,3 +34,7 @@
 .oj-full-flex {
   flex: 1;
 }
+
+.oj-border-radius {
+  border-radius: 50%;
+}

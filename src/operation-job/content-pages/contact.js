@@ -7,7 +7,7 @@ import photo from '../../assets/images/joe.jpg';
 const Contact = ({ name, handleClick }) => (
   <div className="operation-job-page uk-height-viewport">
     <NavBar handleClick={handleClick} />
-    <div className="uk-container uk-container-center oj-container">
+    <div className="uk-container uk-container-center oj-container uk-margin-large-bottom">
       <div className="uk-vertical-align uk-text-center">
         <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
       </div>
@@ -15,7 +15,7 @@ const Contact = ({ name, handleClick }) => (
         <div className="uk-width-medium-1-2 uk-row-first">
           <img width="500px" height="auto" src={photo} alt="Joseph Sutton" />
         </div>
-        <div className="uk-width-medium-1-2">
+        <div className="uk-width-medium-1-2 uk-margin-top">
           <div className="uk-grid">
             <div className="uk-width-1-6">
               <i className="uk-icon-user uk-icon-medium" />

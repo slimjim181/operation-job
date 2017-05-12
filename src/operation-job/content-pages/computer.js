@@ -6,7 +6,7 @@ import NavBar from '../components/navbar';
 const Computer = ({ name, handleClick }) => (
   <div className="operation-job-page uk-height-viewport">
     <NavBar handleClick={handleClick} />
-    <div className="uk-container uk-container-center oj-container">
+    <div className="uk-container uk-container-center oj-container uk-margin-large-bottom">
       <div className="uk-vertical-align uk-text-center">
         <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
       </div>
