@@ -13,7 +13,7 @@ const Video = ({ name, handleClick }) => (
       </div>
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
-          <h2>I have always had a passion for video</h2>
+          <h2>I always had a passion for video</h2>
           <p className="uk-text-large">Here is a couple of my best videos I have produced:</p>
           <div className="uk-grid">
             <div className="uk-width-medium-6-10 uk-margin-bottom">

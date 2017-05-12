@@ -21,7 +21,7 @@ const Software = ({ name, handleClick }) => (
           <h2>About this Website</h2>
           <p className="uk-text-large">
             This website was built with react, npm and uikit. But I have experience with Java, Python and a few others.
-            Code, motivation and my thoughts for this website is <a href="https://github.com/slimjim181/operation-job">here</a>
+            Code, motivation and my thoughts for this website can be found in my Github repo <a href="https://github.com/slimjim181/operation-job">here</a>.
           </p>
           <h2>Experience</h2>
           <div className="uk-grid" data-uk-grid-margin>
@@ -77,7 +77,7 @@ const Software = ({ name, handleClick }) => (
             </div>
           </div>
           <p>Healthcare software has very high standards. I learned to write code that was accessible, secure, multilingual, responsive, well unit tested and worked on the latest browsers.</p>
-          <p>I also had a dual role at Orion Health for 6 months on their Junior Developement Board. See the Leader page for more details.</p>
+          <p>I also had a dual role at Orion Health for 6 months on their Junior Developement Board. See the Leader and Speaker page for more details.</p>
           <p>Sadly my time came to a sudden end at Orion Health with redudancy due to
             <a href="http://www.stuff.co.nz/business/industries/91796675/scores-of-job-losses-expected-at-orion-health"> financial reasons</a>.
           </p>
