@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import '../../assets/css/content-page.css';
 import NavBar from '../components/navbar';
 import photo from '../../assets/images/joe.jpg';
+import teamEa from '../../assets/images/team-ea.jpg';
 import studentLife from '../../assets/images/student-life.jpg';
 import dabNation from '../../assets/images/dab-nation.jpg';
-import teamEa from '../../assets/images/team-ea.jpg';
 // import joeDesk from '../../assets/images/joe-desk.jpg';
 
 const Contact = ({ name, handleClick }) => (

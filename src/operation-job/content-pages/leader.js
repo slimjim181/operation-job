@@ -2,10 +2,10 @@ import React from 'react';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import '../../assets/css/content-page.css';
-import ohJdb from '../../assets/images/oh-jdb.jpg';
-import ohTrophy from '../../assets/images/oh-trophy.jpg';
 import liveLifeLeaders from '../../assets/images/live-life-leaders.jpg';
 import youthLeader from '../../assets/images/youth-leader.jpg';
+import ohJdb from '../../assets/images/oh-jdb.jpg';
+import ohTrophy from '../../assets/images/oh-trophy.jpg';
 import NavBar from '../components/navbar';
 
 const domains = {

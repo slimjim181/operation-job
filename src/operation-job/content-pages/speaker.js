@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../../assets/css/content-page.css';
+import speakingBatman from '../../assets/images/speaking-batman.jpg';
+import speakingCec from '../../assets/images/speaking-cec.jpg';
 import ohAllHands3 from '../../assets/images/oh-all-hands3.jpg';
 import ohAllHands2 from '../../assets/images/oh-all-hands2.jpg';
 import ohAllHandsBatman1 from '../../assets/images/oh-all-hands-batman1.jpg';
-import speakingBatman from '../../assets/images/speaking-batman.jpg';
-import speakingCec from '../../assets/images/speaking-cec.jpg';
 import NavBar from '../components/navbar';
 
 const Speaker = ({ name, handleClick }) => {
