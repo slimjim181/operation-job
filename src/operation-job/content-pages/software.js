@@ -10,7 +10,7 @@ import grantMiller from '../../assets/images/grant-miller.jpg';
 import NavBar from '../components/navbar';
 
 const Software = ({ name, handleClick }) => {
-  const teamsParagraph = ' teams; the first Codename: RAMBO, then Team Marvel:';
+  const teamsParagraph = ' teams; the first \'Codename: RAMBO\', the second \'Team Marvel:\'';
   const healthcareSoftware = 'Healthcare software has very high standards. I learned to write code that was accessible, ' +
     'secure, multilingual, responsive, well unit tested and worked on the latest browsers. I also had a dual role at Orion ' +
     'Health for 6 months on their Junior Developement Board. See the Leader and Speaker page for more details.';
@@ -31,7 +31,7 @@ const Software = ({ name, handleClick }) => {
           <div className="uk-width-1-1">
             <h2>About this Website</h2>
             <p className="uk-text-large">
-              This website was built with react, npm and uikit. But I have experience with Java, Python and a few others.
+              This website was built with react, npm and uikit.  I also have experience with Java, Python and a few others.
               Code, motivation and my thoughts for this website can be found in my Github repo
                 <a href="https://github.com/slimjim181/operation-job"> here</a>.
             </p>
@@ -88,7 +88,7 @@ const Software = ({ name, handleClick }) => {
                 <img src={teamMarvel} width="600px" alt="Team Marvel" title="Team Marvel" />
               </div>
             </div>
-            <p>{healthcareSoftware} Sadly my time came to a sudden end at Orion Health with redudancy due to
+            <p>{healthcareSoftware} Sadly my time came to a sudden end at Orion Health with redundancy, due to
               <a
                 href="http://www.stuff.co.nz/business/industries/91796675/scores-of-job-losses-expected-at-orion-health"
               > financial reasons</a>.

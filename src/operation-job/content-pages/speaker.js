@@ -10,7 +10,7 @@ import NavBar from '../components/navbar';
 
 const Speaker = ({ name, handleClick }) => {
   const allHandsParagraph = 'On the Junior Development Board I had the opportunity to organise and MC the quarterly R&D All Hands ' +
-    'meeting, twice! This involve a huge amount of planning, a batman costume and epic videos.';
+    'meeting, twice! This involved a huge amount of planning, a batman costume and epic videos.';
   return (
     <div className="operation-job-page uk-height-viewport">
       <NavBar handleClick={handleClick} />
