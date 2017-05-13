@@ -12,9 +12,8 @@ import NavBar from '../components/navbar';
 const Software = ({ name, handleClick }) => {
   const teamsParagraph = ' teams; the first Codename: RAMBO, then Team Marvel:';
   const healthcareSoftware = 'Healthcare software has very high standards. I learned to write code that was accessible, ' +
-    'secure, multilingual, responsive, well unit tested and worked on the latest browsers.';
-  const dualRole = 'I also had a dual role at Orion Health for 6 months on their Junior Developement Board. ' +
-    'See the Leader and Speaker page for more details.';
+    'secure, multilingual, responsive, well unit tested and worked on the latest browsers. I also had a dual role at Orion ' +
+    'Health for 6 months on their Junior Developement Board. See the Leader and Speaker page for more details.';
   const grantReference = '"In the two years I have worked with Joe I have found him to be a most enthusiastic young developer. ' +
     'Joe is a very committed team player, always keen to put his hand up for work and is confident and willing to pick up ' +
     'different technologies as displayed by his recent found passion for React. Friendly and approachable with a good ' +
@@ -83,15 +82,13 @@ const Software = ({ name, handleClick }) => {
             </p>
             <div className="uk-grid uk-margin-bottom">
               <div className="uk-width-medium-1-2 uk-margin-bottom">
-                <img src={codenameRambo} width="600px" />
+                <img src={codenameRambo} width="600px" alt="Codename: Rambo" title="Codename: Rambo" />
               </div>
               <div className="uk-width-medium-1-2">
-                <img src={teamMarvel} width="600px" />
+                <img src={teamMarvel} width="600px" alt="Team Marvel" title="Team Marvel" />
               </div>
             </div>
-            <p>{healthcareSoftware}</p>
-            <p>{dualRole}</p>
-            <p>Sadly my time came to a sudden end at Orion Health with redudancy due to
+            <p>{healthcareSoftware} Sadly my time came to a sudden end at Orion Health with redudancy due to
               <a
                 href="http://www.stuff.co.nz/business/industries/91796675/scores-of-job-losses-expected-at-orion-health"
               > financial reasons</a>.

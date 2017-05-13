@@ -21,7 +21,7 @@ const Video = ({ name, handleClick }) => (
             </div>
             <div className="uk-width-medium-4-10">
               <h2>Operation Generation</h2>
-              <p>A music video telling my story from the christchurch earthquake.</p>
+              <p>A music video telling my story from the Christchurch earthquake.</p>
             </div>
           </div>
           <div className="uk-grid">
