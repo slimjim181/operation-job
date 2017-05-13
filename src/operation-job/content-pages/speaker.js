@@ -17,10 +17,10 @@ const Speaker = ({ name, handleClick }) => (
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
           <h2>Orion Health R&D All Hands</h2>
-          <p>On the Junior Development Board I got the oppertunity to organise and MC the quarterly R&D All hands meeting, twice!</p>
-          <p>This involve alot of planning, a batman costume and epic videos.</p>
+          <p>On the Junior Development Board I had the opportunity to organise and MC the quarterly R&D All hands meeting, twice!</p>
+          <p>This involve a huge amount of planning, a batman costume and epic videos.</p>
           <div className="uk-grid uk-margin-bottom">
-            <div className="uk-width-medium-1-2">
+            <div className="uk-width-medium-1-2 uk-margin-bottom">
               <img src={ohAllHands1} width="600px" />
             </div>
             <div className="uk-width-medium-1-2">

@@ -38,3 +38,33 @@
 .oj-border-radius {
   border-radius: 50%;
 }
+
+.oj-left-padding {
+  padding-left: 0px;
+}
+
+.oj-strength {
+  padding: 20px 0px;
+}
+
+@media (min-width: 768px) {
+  .oj-strength {
+    height: 115px;
+  }
+}
+
+.oj-domain-Executing {
+  border-left: 10px solid #61106A;
+}
+
+.oj-domain-Influencing {
+  border-left: 10px solid #F8981D;
+}
+
+.oj-domain-Relationship-Building {
+  border-left: 10px solid #005288;
+}
+
+.oj-domain-Strategic-Thinking {
+  border-left: 10px solid #98002C;
+}
