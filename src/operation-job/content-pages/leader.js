@@ -134,7 +134,7 @@ const Leader = ({ name, handleClick }) => {
               <a href="http://www.canterbury.ac.nz/ScholarshipSearch/ScholarshipDetails.aspx?ScholarshipID=6935.93">
                 {scholarshipParagraph}
               </a> (2012) and a <a href="http://www.dofehillary.org.nz/Site/do_the_award/Gold.aspx">
-              Gold Duke of Edinburugh Hillary Award</a> (2014).
+              Gold Duke of Edinburgh Hillary Award</a> (2014).
             </p>
             <div className="uk-grid uk-margin-bottom">
               <div className="uk-width-medium-1-2 uk-margin-bottom">
