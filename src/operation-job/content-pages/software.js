@@ -11,9 +11,10 @@ import NavBar from '../components/navbar';
 
 const Software = ({ name, handleClick }) => {
   const teamsParagraph = ' teams; the first \'Codename: RAMBO\', the second \'Team Marvel:\'';
-  const healthcareSoftware = 'Healthcare software has very high standards. I learned to write code that was accessible, ' +
-    'secure, multilingual, responsive, well unit tested and worked on the latest browsers. I also had a dual role at Orion ' +
-    'Health for 6 months on their Junior Developement Board. See the Leader and Speaker page for more details.';
+  const healthcareSoftware = 'Healthcare software has very high standards because of this I learned to write code that was accessible, ' +
+    'secure, multilingual, responsive, well unit tested and worked on the latest browsers.';
+  const dualRole = 'I also had a dual role at Orion Health for 6 months on their Junior Development Board. ' +
+    'See the Leader page for more details.';
   const grantReference = '"In the two years I have worked with Joe I have found him to be a most enthusiastic young developer. ' +
     'Joe is a very committed team player, always keen to put his hand up for work and is confident and willing to pick up ' +
     'different technologies as displayed by his recent found passion for React. Friendly and approachable with a good ' +
@@ -29,10 +30,11 @@ const Software = ({ name, handleClick }) => {
         </div>
         <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
           <div className="uk-width-1-1">
-            <h2>About this Website</h2>
+            <h2>What Drives Me</h2>
             <p className="uk-text-large">
-              This website was built with react, npm and uikit.  I also have experience with Java, Python and a few others.
-              Code, motivation and my thoughts for this website can be found in my Github repo
+                Software Development is a lot of fun! I enjoy creating websites and I have become passionate about web technologies like npm, react and uikit from my time at Orion Health.
+                This website was built with these technologies. I also have experience with Java, Python and a few others.
+                Code, motivation and my thoughts for this website can be found in my Github repo
                 <a href="https://github.com/slimjim181/operation-job"> here</a>.
             </p>
             <h2>Experience</h2>
@@ -45,7 +47,7 @@ const Software = ({ name, handleClick }) => {
                   <div className="oj-full-flex">
                     <h3 className="oj-no-margin">Orion Health</h3>
                     <p className="uk-text-bold oj-no-margin">Software Engineer</p>
-                    <p className="oj-no-margin">Jan 2015-Apr 2017 - 2 yrs 4 mos</p>
+                    <p className="oj-no-margin">Jan 2015 - Apr 2017 - 2 yrs 4 mos</p>
                   </div>
                 </div>
               </div>
@@ -57,7 +59,7 @@ const Software = ({ name, handleClick }) => {
                   <div className="oj-full-flex">
                     <h3 className="oj-no-margin">Allied Telesis</h3>
                     <p className="uk-text-bold oj-no-margin">Summer Internship</p>
-                    <p className="oj-no-margin">Nov 2013-Feb 2014 - 4 mos</p>
+                    <p className="oj-no-margin">Nov 2013 - Feb 2014 - 4 mos</p>
                   </div>
                 </div>
               </div>
@@ -71,14 +73,14 @@ const Software = ({ name, handleClick }) => {
                 <div className="oj-full-flex">
                   <h3 className="oj-no-margin">University of Canterbury</h3>
                   <p className="uk-text-bold oj-no-margin">Bachelor of Science in Computer Science</p>
-                  <p className="oj-no-margin">2012-2014</p>
+                  <p className="oj-no-margin">2012 - 2014</p>
                 </div>
               </div>
             </div>
             <h2>Software Developer at Orion Health</h2>
-            <p>At Orion Health I spent my entire time working on one product:
-              <a href="https://orionhealth.com/nz/products/engage/"> Patient Portal</a> with two different
-              <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)"> Scrum</a>{teamsParagraph}
+            <p>At Orion Health I spent my entire time working on one product: Patient Portal (marketed as
+              <a href="https://orionhealth.com/nz/products/engage/"> Engage</a>) with two different
+              <a href="https://www.scrum.org/resources/what-is-scrum"> Scrum</a>{teamsParagraph}
             </p>
             <div className="uk-grid uk-margin-bottom">
               <div className="uk-width-medium-1-2 uk-margin-bottom">
@@ -88,7 +90,10 @@ const Software = ({ name, handleClick }) => {
                 <img src={teamMarvel} width="600px" alt="Team Marvel" title="Team Marvel" />
               </div>
             </div>
-            <p>{healthcareSoftware} Sadly my time came to a sudden end at Orion Health with redundancy, due to
+            <p>{healthcareSoftware} At Orion Health we used
+              <a href="https://www.atlassian.com/"> Atlassians </a>
+              software development tools to manage and collaborate on our software. {dualRole}</p>
+            <p>Sadly my time came to a sudden end at Orion Health with redundancy due to
               <a
                 href="http://www.stuff.co.nz/business/industries/91796675/scores-of-job-losses-expected-at-orion-health"
               > financial reasons</a>.

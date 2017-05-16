@@ -17,9 +17,9 @@ const Computer = ({ name, handleClick }) => (
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
           <p className="uk-text-large">
-            My number 1 hobby to do in my spare time is to build computers!
+            My number 1 hobby to do in my spare time is to build computers.
           </p>
-          <p>Meet two of my favourite builds Bumblebee and Razor! Both computers were built for Gaming and Video Editing.</p>
+          <p>Meet two of my favourite builds Bumblebee and Razor. Both computers were built for gaming and video editing.</p>
           <div className="uk-grid uk-margin-bottom">
             <div className="uk-width-medium-1-2 uk-margin-bottom">
               <div className="uk-margin">
@@ -35,7 +35,7 @@ const Computer = ({ name, handleClick }) => (
                 <table className="uk-table uk-table-striped">
                   <tbody>
                     <tr><td className="uk-text-bold">CPU:</td><td>Intel Core i7 7700K</td></tr>
-                    <tr><td className="uk-text-bold">RAM:</td><td>Corsair Vengeance LPX DDR4 3200Mhz 2x8GB</td></tr>
+                    <tr><td className="uk-text-bold">RAM:</td><td>Corsair Vengeance LPX DDR4 3200MHz 2x8GB</td></tr>
                     <tr><td className="uk-text-bold">GPU:</td><td>Gigabyte Geforce GTX 1080 G1 Gaming 8GB</td></tr>
                     <tr><td className="uk-text-bold">CASE:</td><td>Corsair Graphite 380T Hornet</td></tr>
                     <tr><td className="uk-text-bold">MOTHERBOARD:</td><td>Asus ROG Strix Z270I Gaming</td></tr>
@@ -63,7 +63,7 @@ const Computer = ({ name, handleClick }) => (
                 <table className="uk-table uk-table-striped">
                   <tbody>
                     <tr><td className="uk-text-bold">CPU:</td><td>Intel Core i7 4771</td></tr>
-                    <tr><td className="uk-text-bold">RAM:</td><td>Kingston HyperX DDR3 1600Mhz 2x8GB</td></tr>
+                    <tr><td className="uk-text-bold">RAM:</td><td>Kingston HyperX DDR3 1600MHz 2x8GB</td></tr>
                     <tr><td className="uk-text-bold">GPU:</td><td>Sapphire Radeon R9 280X 3GB</td></tr>
                     <tr><td className="uk-text-bold">CASE:</td><td>Thermaltake Armor Revo</td></tr>
                     <tr><td className="uk-text-bold">MOTHERBOARD:</td><td>Gigabyte GA-Z87X-D3H</td></tr>

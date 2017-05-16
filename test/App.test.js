@@ -15,11 +15,9 @@ describe('operation-job-app', () => {
   });
   it('state changes to leader on click of leader button', () => {
   });
-  it('state changes to computer builder on click of computer builder button', () => {
-  });
   it('state changes to video director on click of video director button', () => {
   });
-  it('state changes to speaker on click of speaker button', () => {
+  it('state changes to computer builder on click of computer builder button', () => {
   });
   it('state changes to contact on click of contact button', () => {
   });

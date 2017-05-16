@@ -7,7 +7,6 @@ import Software from './content-pages/software';
 import Leader from './content-pages/leader';
 import Computer from './content-pages/computer';
 import Video from './content-pages/video';
-import Speaker from './content-pages/speaker';
 import Contact from './content-pages/contact';
 
 import Button from './components/button';
@@ -37,26 +36,23 @@ class OperationJob extends Component {
     const homeScreenButtonNames = [
       viewStates.SOFTWARE,
       viewStates.LEADER,
-      viewStates.COMPUTER,
       viewStates.VIDEO,
-      viewStates.SPEAKER,
+      viewStates.COMPUTER,
     ];
     const homeScreenButtons = _.map(homeScreenButtonNames, (name, index) => (
       <Button key={index} name={name} handleClick={this.handleClick} />
     ));
 
-    // TODO consider a navigation library.
+    // hmm I dont like this switch statement but I wanted a single page app....
     switch (this.state.viewState) {
       case viewStates.SOFTWARE:
         return (<Software name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.LEADER:
         return (<Leader name={this.state.viewState} handleClick={this.handleClick} />);
-      case viewStates.COMPUTER:
-        return (<Computer name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.VIDEO:
         return (<Video name={this.state.viewState} handleClick={this.handleClick} />);
-      case viewStates.SPEAKER:
-        return (<Speaker name={this.state.viewState} handleClick={this.handleClick} />);
+      case viewStates.COMPUTER:
+        return (<Computer name={this.state.viewState} handleClick={this.handleClick} />);
       case viewStates.CONTACT:
         return (<Contact name={this.state.viewState} handleClick={this.handleClick} />);
       default:

@@ -5,8 +5,6 @@ import NavBar from '../components/navbar';
 import photo from '../../assets/images/joe.jpg';
 import teamEa from '../../assets/images/team-ea.jpg';
 import studentLife from '../../assets/images/student-life.jpg';
-import dabNation from '../../assets/images/dab-nation.jpg';
-// import joeDesk from '../../assets/images/joe-desk.jpg';
 
 const Contact = ({ name, handleClick }) => (
   <div className="operation-job-page uk-height-viewport">
@@ -81,14 +79,6 @@ const Contact = ({ name, handleClick }) => (
             </div>
             <div className="uk-width-medium-1-2">
               <img src={studentLife} width="600px" alt="Student Life water jump" />
-            </div>
-          </div>
-          <div className="uk-grid">
-            <div className="uk-width-medium-1-2">
-              <img src={dabNation} width="600px" alt="Dab Nation" />
-            </div>
-            <div className="uk-width-medium-1-2">
-              {/*<img src={joeDesk} width="600px" alt="Joe's Desk" />*/}
             </div>
           </div>
         </div>

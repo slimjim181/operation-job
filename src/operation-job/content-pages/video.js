@@ -14,7 +14,7 @@ const Video = ({ name, handleClick }) => (
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
           <h2>I always had a passion for video</h2>
-          <p className="uk-text-large">Here is a couple of my best videos I have produced:</p>
+          <p className="uk-text-large">Here are a couple of my best videos I have produced:</p>
           <div className="uk-grid">
             <div className="uk-width-medium-6-10 uk-margin-bottom">
               <ReactPlayer width="100%" url="https://www.youtube.com/watch?v=3zZ7Cq9xXUU" />
@@ -29,7 +29,7 @@ const Video = ({ name, handleClick }) => (
               <ReactPlayer width="100%"url="https://www.youtube.com/watch?v=cBhLJtG3XdM" />
             </div>
             <div className="uk-width-medium-4-10">
-              <h2>Wedding Videos</h2>
+              <h2>Jake & Olivia Erskine</h2>
               <p>My lastest wedding video.</p>
             </div>
           </div>

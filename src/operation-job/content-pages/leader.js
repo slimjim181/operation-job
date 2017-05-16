@@ -6,6 +6,9 @@ import liveLifeLeaders from '../../assets/images/live-life-leaders.jpg';
 import youthLeader from '../../assets/images/youth-leader.jpg';
 import ohJdb from '../../assets/images/oh-jdb.jpg';
 import ohTrophy from '../../assets/images/oh-trophy.jpg';
+import ohAllHands3 from '../../assets/images/oh-all-hands3.jpg';
+import ohAllHands2 from '../../assets/images/oh-all-hands2.jpg';
+import ohAllHandsBatman1 from '../../assets/images/oh-all-hands-batman1.jpg';
 import NavBar from '../components/navbar';
 
 const domains = {
@@ -112,9 +115,9 @@ const Leader = ({ name, handleClick }) => {
   ));
 
   const jdbParagraph = 'Hand-picked by the CEO Ian McCrae to be exposed to greater business initiatives. I had the opportunity ' +
-    'to work with a diverse team of like minded leaders to innovate change within Orion Health. The main change I was ' +
-    'involved with was turning company meetings into a great experience of which I recieved a CEO award for. ' +
-    'See the Speaker page for more information.';
+    'to work with a diverse team of like minded leaders to innovate change within Orion Health. I found myself ' +
+    'coordinating two of their quarterly R&D All Hands meetings. This involved a huge amount of planning, a batman costume ' +
+    'and epic videos. I received a CEO award for my efforts.';
   const strengthsParagraph = ' is an assessment to identify naturally what you do best. Here are my top 10 Strengths:';
   const scholarshipParagraph = ' UC Emerging Leaders Scholarship';
 
@@ -130,7 +133,7 @@ const Leader = ({ name, handleClick }) => {
             <h2>Wherever I go I find myself leading people</h2>
             <p>
               I have been a Kids Church Leader (9 years) and Youth Leader (2 years) at City East Church.
-              Currently I help lead a life group of young adults at Grace Vineyard Church. I also have been awarded a
+              Currently I help lead a life group of ~20 young adults at Grace Vineyard Church. I also have been awarded a
               <a href="http://www.canterbury.ac.nz/ScholarshipSearch/ScholarshipDetails.aspx?ScholarshipID=6935.93">
                 {scholarshipParagraph}
               </a> (2012) and a <a href="http://www.dofehillary.org.nz/Site/do_the_award/Gold.aspx">
@@ -148,10 +151,38 @@ const Leader = ({ name, handleClick }) => {
             <p>{jdbParagraph}</p>
             <div className="uk-grid" data-uk-grid-margin>
               <div className="uk-width-medium-2-10">
-                <img src={ohTrophy} alt="Trophy" />
+                <img src={ohTrophy} alt="Trophy" title="Trophy" />
               </div>
               <div className="uk-width-medium-8-10">
-                <img src={ohJdb} width="600px" alt="Orion Health Founding Junior Development Board" />
+                <img
+                  src={ohJdb}
+                  width="600px"
+                  alt="Orion Health Founding Junior Development Board"
+                  title="Orion Health Founding Junior Development Board"
+                />
+              </div>
+            </div>
+            <div className="uk-grid uk-margin-bottom">
+              <div className="uk-width-medium-4-10 uk-margin-bottom">
+                <img
+                  src={ohAllHands3}
+                  width="600px"
+                  alt="Joseph Sutton as MC with Orion Health audience"
+                  title="Joseph Sutton as MC with Orion Health audience"
+                />
+              </div>
+              <div className="uk-width-medium-6-10">
+                <div className="uk-margin">
+                  <img
+                    src={ohAllHands2}
+                    width="600px"
+                    alt="Joseph Sutton as MC of All Hands meeting"
+                    title="Joseph Sutton as MC of All Hands meeting"
+                  />
+                </div>
+                <div className="uk-margin">
+                  <img src={ohAllHandsBatman1} width="600px" alt="Joseph Sutton as Batman" title="Joseph Sutton as Batman" />
+                </div>
               </div>
             </div>
             <h2>Clifton Strengths Finder</h2>
