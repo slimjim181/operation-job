@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import '../../assets/css/content-page.css';
+import NavBar from '../components/navbar';
 import liveLifeLeaders from '../../assets/images/live-life-leaders.jpg';
 import youthLeader from '../../assets/images/youth-leader.jpg';
 import ohJdb from '../../assets/images/oh-jdb.jpg';
@@ -9,7 +10,6 @@ import ohTrophy from '../../assets/images/oh-trophy.jpg';
 import ohAllHands3 from '../../assets/images/oh-all-hands3.jpg';
 import ohAllHands2 from '../../assets/images/oh-all-hands2.jpg';
 import ohAllHandsBatman1 from '../../assets/images/oh-all-hands-batman1.jpg';
-import NavBar from '../components/navbar';
 
 const domains = {
   EXECUTING: 'Executing',
@@ -92,7 +92,7 @@ const strengthsList6To10 = {
 };
 
 
-const Leader = ({ name, handleClick }) => {
+const Leader = ({ handleClick }) => {
   const strengthsItems1 = _.map(strengthsList1To5, strength => (
     <div className={`uk-panel uk-panel-box uk-margin uk-margin-right oj-strength oj-domain-${strength.domain}`} key={strength.order}>
       <div className="uk-margin-left">
@@ -126,27 +126,10 @@ const Leader = ({ name, handleClick }) => {
       <NavBar handleClick={handleClick} />
       <div className="uk-container uk-container-center oj-container uk-margin-large-bottom">
         <div className="uk-vertical-align uk-text-center">
-          <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
+          <h1 className="oj-title uk-vertical-align-middle uk-margin-top">Leader</h1>
         </div>
         <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
           <div className="uk-width-1-1">
-            <h2>Wherever I go I find myself leading people</h2>
-            <p>
-              I have been a Kids Church Leader (9 years) and Youth Leader (2 years) at City East Church.
-              Currently I help lead a life group of ~20 young adults at Grace Vineyard Church. I also have been awarded a
-              <a href="http://www.canterbury.ac.nz/ScholarshipSearch/ScholarshipDetails.aspx?ScholarshipID=6935.93">
-                {scholarshipParagraph}
-              </a> (2012) and a <a href="http://www.dofehillary.org.nz/Site/do_the_award/Gold.aspx">
-              Gold Duke of Edinburgh Hillary Award</a> (2014).
-            </p>
-            <div className="uk-grid uk-margin-bottom">
-              <div className="uk-width-medium-1-2 uk-margin-bottom">
-                <img src={liveLifeLeaders} width="600px" alt="Life Group Leaders" title="Life Group Leaders" />
-              </div>
-              <div className="uk-width-medium-1-2">
-                <img src={youthLeader} width="600px" alt="City East Church Youth 2012" title="City East Church Youth 2012" />
-              </div>
-            </div>
             <h2>Orion Health Junior Development Board</h2>
             <p>{jdbParagraph}</p>
             <div className="uk-grid" data-uk-grid-margin>
@@ -185,6 +168,23 @@ const Leader = ({ name, handleClick }) => {
                 </div>
               </div>
             </div>
+            <h2>Volunteer Involvement</h2>
+            <p>
+              I have been a Kids Programme Leader (9 years) and Youth Programme Leader (2 years).
+              Currently I help lead a group of ~20 young adults. I also have been awarded a
+              <a href="http://www.canterbury.ac.nz/ScholarshipSearch/ScholarshipDetails.aspx?ScholarshipID=6935.93">
+                {scholarshipParagraph}
+              </a> (2012) and a <a href="http://www.dofehillary.org.nz/Site/do_the_award/Gold.aspx">
+              Gold Duke of Edinburgh Hillary Award</a> (2014).
+            </p>
+            <div className="uk-grid uk-margin-bottom">
+              <div className="uk-width-medium-1-2 uk-margin-bottom">
+                <img src={liveLifeLeaders} width="600px" alt="Young Adult Leaders" title="Young Adult Leaders" />
+              </div>
+              <div className="uk-width-medium-1-2">
+                <img src={youthLeader} width="600px" alt="Youth Group" title="Youth Group" />
+              </div>
+            </div>
             <h2>Clifton Strengths Finder</h2>
             <p><a href="https://www.gallupstrengthscenter.com/">Clifton Strengths Finder</a>{strengthsParagraph}</p>
             <div className="uk-grid oj-no-margin">
@@ -207,7 +207,6 @@ const Leader = ({ name, handleClick }) => {
 };
 
 Leader.propTypes = {
-  name: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
 

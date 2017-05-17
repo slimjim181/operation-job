@@ -6,12 +6,12 @@ import photo from '../../assets/images/joe.jpg';
 import teamEa from '../../assets/images/team-ea.jpg';
 import studentLife from '../../assets/images/student-life.jpg';
 
-const Contact = ({ name, handleClick }) => (
+const Contact = ({ handleClick }) => (
   <div className="operation-job-page uk-height-viewport">
     <NavBar handleClick={handleClick} />
     <div className="uk-container uk-container-center oj-container uk-margin-large-bottom">
       <div className="uk-vertical-align uk-text-center">
-        <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
+        <h1 className="oj-title uk-vertical-align-middle uk-margin-top">Contact</h1>
       </div>
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
@@ -75,10 +75,10 @@ const Contact = ({ name, handleClick }) => (
           <hr className="uk-grid-divider" />
           <div className="uk-grid">
             <div className="uk-width-medium-1-2 uk-margin-bottom">
-              <img src={teamEa} width="600px" alt="EA Team" />
+              <img src={teamEa} width="600px" alt="Exchange Team" title="Exchange Team" />
             </div>
             <div className="uk-width-medium-1-2">
-              <img src={studentLife} width="600px" alt="Student Life water jump" />
+              <img src={studentLife} width="600px" alt="Student Life water jump" title="Student Life water jump" />
             </div>
           </div>
         </div>
@@ -88,7 +88,6 @@ const Contact = ({ name, handleClick }) => (
 );
 
 Contact.propTypes = {
-  name: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
 

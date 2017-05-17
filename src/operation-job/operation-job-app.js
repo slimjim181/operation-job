@@ -46,15 +46,15 @@ class OperationJob extends Component {
     // hmm I dont like this switch statement but I wanted a single page app....
     switch (this.state.viewState) {
       case viewStates.SOFTWARE:
-        return (<Software name={this.state.viewState} handleClick={this.handleClick} />);
+        return (<Software handleClick={this.handleClick} />);
       case viewStates.LEADER:
-        return (<Leader name={this.state.viewState} handleClick={this.handleClick} />);
+        return (<Leader handleClick={this.handleClick} />);
       case viewStates.VIDEO:
-        return (<Video name={this.state.viewState} handleClick={this.handleClick} />);
+        return (<Video handleClick={this.handleClick} />);
       case viewStates.COMPUTER:
-        return (<Computer name={this.state.viewState} handleClick={this.handleClick} />);
+        return (<Computer handleClick={this.handleClick} />);
       case viewStates.CONTACT:
-        return (<Contact name={this.state.viewState} handleClick={this.handleClick} />);
+        return (<Contact handleClick={this.handleClick} />);
       default:
         return (
           <div className="operation-job-home uk-grid uk-height-viewport">

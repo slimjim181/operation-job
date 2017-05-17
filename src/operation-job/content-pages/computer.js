@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../../assets/css/content-page.css';
+import NavBar from '../components/navbar';
 import bumblebeeComponents from '../../assets/images/bumblebee-components.jpg';
 import bumblebeeComplete from '../../assets/images/bumblebee-complete.jpg';
 import razorComponents from '../../assets/images/razor-components.jpg';
 import razorInside from '../../assets/images/razor-inside.jpg';
-import NavBar from '../components/navbar';
 
-const Computer = ({ name, handleClick }) => (
+const Computer = ({ handleClick }) => (
   <div className="operation-job-page uk-height-viewport">
     <NavBar handleClick={handleClick} />
     <div className="uk-container uk-container-center oj-container uk-margin-large-bottom">
       <div className="uk-vertical-align uk-text-center">
-        <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
+        <h1 className="oj-title uk-vertical-align-middle uk-margin-top">Computer Builder</h1>
       </div>
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
@@ -84,7 +84,6 @@ const Computer = ({ name, handleClick }) => (
 );
 
 Computer.propTypes = {
-  name: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
 

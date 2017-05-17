@@ -6,7 +6,10 @@ import viewStates from '.././types';
 
 const NavBar = ({ handleClick }) => {
   const navBarItems = _.map(viewStates, (name, index) => (
-    <li key={index}><a className="oj-height" role="navigation" onClick={handleClick}>{name}</a></li>
+    <li key={index}><a id={name} className="oj-height" role="navigation" onClick={handleClick}>{name}</a></li>
+  ));
+  const navBarItemsMobile = _.map(viewStates, (name, index) => (
+    <li key={index}><a id={`${name}-mobile`} className="oj-height" role="navigation" onClick={handleClick}>{name}</a></li>
   ));
 
   return (
@@ -21,7 +24,7 @@ const NavBar = ({ handleClick }) => {
       </nav>
       <div className="uk-dropdown oj-dropdown uk-hidden-large">
         <ul className="uk-nav uk-nav-dropdown uk-animation-slide-left">
-          {navBarItems}
+          {navBarItemsMobile}
         </ul>
       </div>
     </div>

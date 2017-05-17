@@ -4,12 +4,12 @@ import ReactPlayer from 'react-player';
 import '../../assets/css/content-page.css';
 import NavBar from '../components/navbar';
 
-const Video = ({ name, handleClick }) => (
+const Video = ({ handleClick }) => (
   <div className="operation-job-page uk-height-viewport">
     <NavBar handleClick={handleClick} />
     <div className="uk-container uk-container-center oj-container uk-margin-large-bottom">
       <div className="uk-vertical-align uk-text-center">
-        <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
+        <h1 className="oj-title uk-vertical-align-middle uk-margin-top">Video Director</h1>
       </div>
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
@@ -40,7 +40,6 @@ const Video = ({ name, handleClick }) => (
 );
 
 Video.propTypes = {
-  name: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
 

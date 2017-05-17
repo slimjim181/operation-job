@@ -1,15 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../../assets/css/content-page.css';
+import NavBar from '../components/navbar';
 import ohLogo from '../../assets/images/oh-logo.png';
 import atLogo from '../../assets/images/at-logo.png';
 import ucLogo from '../../assets/images/uc-logo.png';
 import codenameRambo from '../../assets/images/codename-rambo.jpg';
 import teamMarvel from '../../assets/images/team-marvel.jpg';
 import grantMiller from '../../assets/images/grant-miller.jpg';
-import NavBar from '../components/navbar';
 
-const Software = ({ name, handleClick }) => {
+const Software = ({ handleClick }) => {
+  const whatDrivesMe = 'Software Development is a lot of fun! I enjoy creating websites and I have become passionate about web ' +
+    'technologies like npm, react and uikit from my time at Orion Health. This website was built with these technologies. ' +
+     'I also have experience with Java, Python and a few others. Code, motivation and my thoughts for this website can be ' +
+     'found in my Github repo ';
   const teamsParagraph = ' teams; the first \'Codename: RAMBO\', the second \'Team Marvel:\'';
   const healthcareSoftware = 'Healthcare software has very high standards because of this I learned to write code that was accessible, ' +
     'secure, multilingual, responsive, well unit tested and worked on the latest browsers.';
@@ -26,16 +30,14 @@ const Software = ({ name, handleClick }) => {
       <NavBar handleClick={handleClick} />
       <div className="uk-container uk-container-center oj-container uk-margin-large-bottom">
         <div className="uk-vertical-align uk-text-center">
-          <h1 className="oj-title uk-vertical-align-middle uk-margin-top">{name}</h1>
+          <h1 className="oj-title uk-vertical-align-middle uk-margin-top">Software Developer</h1>
         </div>
         <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
           <div className="uk-width-1-1">
             <h2>What Drives Me</h2>
             <p className="uk-text-large">
-                Software Development is a lot of fun! I enjoy creating websites and I have become passionate about web technologies like npm, react and uikit from my time at Orion Health.
-                This website was built with these technologies. I also have experience with Java, Python and a few others.
-                Code, motivation and my thoughts for this website can be found in my Github repo
-                <a href="https://github.com/slimjim181/operation-job"> here</a>.
+              {whatDrivesMe}
+              <a href="https://github.com/slimjim181/operation-job">here</a>.
             </p>
             <h2>Experience</h2>
             <div className="uk-grid" data-uk-grid-margin>
@@ -131,7 +133,6 @@ const Software = ({ name, handleClick }) => {
 };
 
 Software.propTypes = {
-  name: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
 };
 

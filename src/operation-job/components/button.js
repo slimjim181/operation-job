@@ -4,6 +4,7 @@ import '../../assets/css/button.css';
 
 const Button = ({ name, handleClick, buttonType }) => (
   <button
+    id={name}
     className={`uk-button ${buttonType} uk-button-large uk-text-uppercase uk-text-large oj-button`}
     onClick={event => handleClick(event)}
   >{name}</button>
