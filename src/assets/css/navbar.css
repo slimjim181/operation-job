@@ -29,7 +29,6 @@
   font-weight: normal;
 }
 
-/*the reason I need scss grr*/
 .uk-navbar-nav>li>a:focus {
   color: white;
   background-color: #0f7ae5;

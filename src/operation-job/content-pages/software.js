@@ -14,8 +14,8 @@ const Software = ({ handleClick }) => {
     'technologies like npm, react and uikit from my time at Orion Health. This website was built with these technologies. ' +
      'I also have experience with Java, Python and a few others. Code, motivation and my thoughts for this website can be ' +
      'found in my Github repo ';
-  const teamsParagraph = ' teams; the first \'Codename: RAMBO\', the second \'Team Marvel:\'';
-  const healthcareSoftware = 'Healthcare software has very high standards because of this I learned to write code that was accessible, ' +
+  const teamsParagraph = ' teams; the first \'Codename: Rambo\', the second \'Team Marvel:\'';
+  const healthcareSoftware = 'Healthcare software has very high standards. Because of this I learnt to write code that was accessible, ' +
     'secure, multilingual, responsive, well unit tested and worked on the latest browsers.';
   const dualRole = 'I also had a dual role at Orion Health for 6 months on their Junior Development Board. ' +
     'See the Leader page for more details.';

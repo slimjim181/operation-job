@@ -17,7 +17,7 @@ const Computer = ({ handleClick }) => (
       <div className="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-grid-margin>
         <div className="uk-width-1-1">
           <p className="uk-text-large">
-            My number 1 hobby to do in my spare time is to build computers.
+            My number one hobby to do in my spare time is to build computers.
           </p>
           <p>Meet two of my favourite builds Bumblebee and Razor. Both computers were built for gaming and video editing.</p>
           <div className="uk-grid uk-margin-bottom">

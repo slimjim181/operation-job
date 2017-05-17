@@ -26,7 +26,6 @@
   margin-top: 0px;
 }
 
-/*TODO fix same as ^*/
 .oj-no-margin {
   margin: 0px;
 }
@@ -39,7 +38,7 @@
   border-radius: 50%;
 }
 
-.oj-left-padding {
+.oj-no-left-padding {
   padding-left: 0px;
 }
 

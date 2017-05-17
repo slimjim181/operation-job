@@ -33,8 +33,8 @@ const Contact = ({ handleClick }) => (
                   <i className="uk-icon-map-marker uk-icon-medium" />
                 </div>
                 <div className="uk-width-5-6">
-                  <h2 className="oj-details-h2">6 Eyrewell Road</h2>
-                  <h2 className="oj-details-h2">Pegasus 7612</h2>
+                  <h2 className="oj-no-margin">6 Eyrewell Road</h2>
+                  <h2 className="oj-no-margin">Pegasus 7612</h2>
                   <p>I will be moving to Woolston late June</p>
                 </div>
               </div>

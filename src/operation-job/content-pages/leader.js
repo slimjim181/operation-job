@@ -116,7 +116,7 @@ const Leader = ({ handleClick }) => {
 
   const jdbParagraph = 'Hand-picked by the CEO Ian McCrae to be exposed to greater business initiatives. I had the opportunity ' +
     'to work with a diverse team of like minded leaders to innovate change within Orion Health. I found myself ' +
-    'coordinating two of their quarterly R&D All Hands meetings. This involved a huge amount of planning, a batman costume ' +
+    'coordinating two of their quarterly R&D All Hands meetings. This involved a huge amount of planning, a Batman costume ' +
     'and epic videos. I received a CEO award for my efforts.';
   const strengthsParagraph = ' is an assessment to identify naturally what you do best. Here are my top 10 Strengths:';
   const scholarshipParagraph = ' UC Emerging Leaders Scholarship';
@@ -188,13 +188,13 @@ const Leader = ({ handleClick }) => {
             <h2>Clifton Strengths Finder</h2>
             <p><a href="https://www.gallupstrengthscenter.com/">Clifton Strengths Finder</a>{strengthsParagraph}</p>
             <div className="uk-grid oj-no-margin">
-              <div className="uk-width-medium-1-2 oj-left-padding">
-                <ul className="oj-left-padding">
+              <div className="uk-width-medium-1-2 oj-no-left-padding">
+                <ul className="oj-no-left-padding">
                   {strengthsItems1}
                 </ul>
               </div>
-              <div className="uk-width-medium-1-2 oj-left-padding">
-                <ul className="oj-left-padding">
+              <div className="uk-width-medium-1-2 oj-no-left-padding">
+                <ul className="oj-no-left-padding">
                   {strengthsItems2}
                 </ul>
               </div>
